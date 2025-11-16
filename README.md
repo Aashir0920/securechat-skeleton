@@ -59,3 +59,16 @@ A console-based secure chat application implementing cryptographic protocols for
 - Salted password hashing
 - Secure credential storage
 - Dual authentication (cert + password)
+# Secure Chat System
+
+## Implementation Status
+✅ Certificate validation implemented
+✅ Diffie-Hellman key exchange implemented
+✅ AES-128 encryption implemented
+✅ Digital signatures implemented
+✅ Replay protection implemented
+✅ User authentication implemented
+✅ Session management implemented
+- Session key generation
+- Secure session establishment
+- Session termination
