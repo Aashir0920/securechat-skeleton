@@ -72,3 +72,17 @@ A console-based secure chat application implementing cryptographic protocols for
 - Session key generation
 - Secure session establishment
 - Session termination
+# Secure Chat System
+
+## Implementation Status
+✅ Certificate validation implemented
+✅ Diffie-Hellman key exchange implemented
+✅ AES-128 encryption implemented
+✅ Digital signatures implemented
+✅ Replay protection implemented
+✅ User authentication implemented
+✅ Session management implemented
+✅ Non-repudiation implemented
+- Message transcripts
+- Signed session receipts
+- Offline verification support
