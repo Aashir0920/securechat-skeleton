@@ -47,3 +47,15 @@ A console-based secure chat application implementing cryptographic protocols for
 - Sequence number tracking
 - Strict monotonic checking
 - Timestamp validation
+# Secure Chat System
+
+## Implementation Status
+✅ Certificate validation implemented
+✅ Diffie-Hellman key exchange implemented
+✅ AES-128 encryption implemented
+✅ Digital signatures implemented
+✅ Replay protection implemented
+✅ User authentication implemented
+- Salted password hashing
+- Secure credential storage
+- Dual authentication (cert + password)
