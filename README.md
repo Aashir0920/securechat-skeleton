@@ -17,3 +17,12 @@ A console-based secure chat application implementing cryptographic protocols for
 - Secure parameter generation
 - Shared secret computation
 - Session key derivation (SHA-256 truncation)
+# Secure Chat System
+
+## Implementation Status
+✅ Certificate validation implemented
+✅ Diffie-Hellman key exchange implemented  
+✅ AES-128 encryption implemented
+- PKCS#7 padding scheme
+- Block cipher mode
+- Secure key handling
