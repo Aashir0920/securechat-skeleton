@@ -36,3 +36,14 @@ A console-based secure chat application implementing cryptographic protocols for
 - RSA signing/verification
 - SHA-256 message digest
 - Signature validation
+# Secure Chat System
+
+## Implementation Status
+✅ Certificate validation implemented
+✅ Diffie-Hellman key exchange implemented
+✅ AES-128 encryption implemented
+✅ Digital signatures implemented
+✅ Replay protection implemented
+- Sequence number tracking
+- Strict monotonic checking
+- Timestamp validation
