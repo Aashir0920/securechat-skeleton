@@ -1,0 +1,133 @@
+# SecureChat - .gitignore
+
+# ========================================
+# CRITICAL: Never commit secrets/keys!
+# ========================================
+
+# Certificate files and private keys
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+certs/
+app/*.pem
+app/*.key
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+securechat.db
+
+# Environment and configuration files with secrets
+.env
+.env.local
+.env.production
+config.ini
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs and transcripts
+*.log
+logs/
+transcripts/
+*.transcript
+session_*.txt
+conversation_*.txt
+
+# Test outputs
+test_results/
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Wireshark captures (optional - only if they contain sensitive data)
+# Uncomment if you don't want to commit PCAP files:
+# *.pcap
+# *.pcapng
+
+# Documentation build artifacts
+docs/_build/
+*.pdf
+
+# MySQL dumps with actual data (keep schema, not data)
+*_data_dump.sql
+
+# Session receipts (may contain sensitive info)
+*_receipt.json
+receipts/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ========================================
+# What TO COMMIT:
+# ========================================
+# ✓ Source code (.py files)
+# ✓ README.md
+# ✓ requirements.txt
+# ✓ .env.example (template without real values)
+# ✓ scripts/ (certificate generation scripts)
+# ✓ Schema files (structure only, no data)
+# ✓ Documentation
+# ✓ Test scripts
+# ✓ Screenshots (sanitized, no real passwords/keys)

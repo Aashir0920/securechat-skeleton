@@ -1,2 +1,8 @@
-"""Pydantic models: hello, server_hello, register, login, dh_client, dh_server, msg, receipt.""" 
-raise NotImplementedError("students: define pydantic models")
+import json
+
+def encode_message(action: str, payload: dict) -> str:
+    return json.dumps({"action": action, "payload": payload})
+
+def decode_message(msg: str) -> dict:
+    return json.loads(msg)
+
