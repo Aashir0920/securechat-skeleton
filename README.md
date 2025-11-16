@@ -6,7 +6,7 @@
 
 A console-based secure chat system implementing **Confidentiality, Integrity, Authenticity, and Non-Repudiation (CIANR)** using industry-standard cryptographic primitives.
 
-**GitHub Repository:** [https://github.com/[your-username]/securechat-skeleton](https://github.com/[your-username]/securechat-skeleton)
+**GitHub Repository:** [https://github.com/aashir0920/securechat-skeleton](https://github.com/[your-username]/securechat-skeleton)
 
 ---
 
