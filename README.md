@@ -86,3 +86,18 @@ A console-based secure chat application implementing cryptographic protocols for
 - Message transcripts
 - Signed session receipts
 - Offline verification support
+# Secure Chat System
+
+## Implementation Status
+✅ Certificate validation implemented
+✅ Diffie-Hellman key exchange implemented
+✅ AES-128 encryption implemented
+✅ Digital signatures implemented
+✅ Replay protection implemented
+✅ User authentication implemented
+✅ Session management implemented
+✅ Non-repudiation implemented
+✅ Comprehensive error handling
+- BAD_CERT for invalid certificates
+- SIG_FAIL for signature failures
+- REPLAY for sequence violations
