@@ -26,3 +26,13 @@ A console-based secure chat application implementing cryptographic protocols for
 - PKCS#7 padding scheme
 - Block cipher mode
 - Secure key handling
+# Secure Chat System
+
+## Implementation Status
+✅ Certificate validation implemented
+✅ Diffie-Hellman key exchange implemented
+✅ AES-128 encryption implemented
+✅ Digital signatures implemented
+- RSA signing/verification
+- SHA-256 message digest
+- Signature validation
